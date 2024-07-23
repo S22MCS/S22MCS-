@@ -138,6 +138,18 @@ section {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 .content {
     display: flex;
     justify-content: center;
@@ -318,4 +330,14 @@ section {
         font-size: 10px;
      
     }
+
+
+    .copy-link {
+        --height: 36px;
+      
+        display: flex;
+        max-width: 250px;
+      }
+      
+
 }
