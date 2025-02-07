@@ -13,7 +13,16 @@
     <header>
  
 
-        <a href="#" class="logo" onclick="location.reload(); return false;">S    2      2     M     C     S</a>
+
+
+        <a href="#" class="logo" id="reloadLink">S    2      2     M     C     S</a>
+
+<script>
+  document.getElementById("reloadLink").addEventListener("click", function(event) {
+    event.preventDefault(); // يمنع السلوك الافتراضي للرابط
+    location.reload(); // يعيد تحميل الصفحة
+  });
+</script>
         <nav class="navigation">
             <a href="#services">Services</a>
             <a href="#projects">Projects</a>
